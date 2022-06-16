@@ -9,11 +9,15 @@
   </head>
   <body>
     <div class="container">
-      <div id="new-task">
-        <input type="text" placeholder="Add a Task..." />
-        <button id="add-btn">ADD</button>
+      <div id="add-section">
+        <div id="new-task">
+          <input type="text" placeholder="Add a Task..." />
+          <button id="add-btn" onclick="btnClick('task-section')">ADD</button>
+        </div>
       </div>
-      <div id="tasks"></div>
+      <div id="task-section">
+        <div id="tasks"></div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
